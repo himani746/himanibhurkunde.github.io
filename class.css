@@ -73,3 +73,26 @@ p {
     font-weight: bold;
     color: #555;
 }
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+}
+
+.contact-form button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ff3d3d;
+}
+
